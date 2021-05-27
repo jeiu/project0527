@@ -51,6 +51,12 @@ public class Main {
 					System.out.println("1-3");
 					owning.input();
 					break;
+				default: {
+					System.out.println("잘못 입력하셨습니다.\n초기메뉴로 돌아갑니다.");
+				}
+				}
+				Default: {
+					System.out.println("잘못 입력하셨습니다.\n초기메뉴로 돌아갑니다.");
 				}
 			}
 			break;
@@ -74,6 +80,9 @@ public class Main {
 					System.out.println("2-3");
 					owning.output();
 					break;
+				default: {
+					System.out.println("잘못 입력하셨습니다.\n초기메뉴로 돌아갑니다.");
+				}
 				}
 			}
 			break;
@@ -97,7 +106,11 @@ public class Main {
 					System.out.println("3-3");
 					owning.lookUp();
 					break;
+				default: {
+					System.out.println("잘못 입력하셨습니다.\n초기메뉴로 돌아갑니다.");
 				}
+				}
+				
 			}
 			break;
 			
@@ -120,6 +133,9 @@ public class Main {
 					System.out.println("4-3");
 					owning.revise();
 					break;
+				default: {
+					System.out.println("잘못 입력하셨습니다.\n초기메뉴로 돌아갑니다.");
+				}
 				}
 			}
 			break;
